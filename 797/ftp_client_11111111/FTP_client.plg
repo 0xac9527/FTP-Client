@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FTP_client - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/FTP_client.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\82053\Desktop\重机由于\ftp_client_11111111\FTP_client.rc"" 
+Creating temporary file "C:\Users\82053\AppData\Local\Temp\RSP25BB.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/FTP_client.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\82053\Desktop\重机由于\ftp_client_11111111\FTP_client.cpp"
+"C:\Users\82053\Desktop\重机由于\ftp_client_11111111\FTP_clientDlg.cpp"
+"C:\Users\82053\Desktop\重机由于\ftp_client_11111111\MySocket.cpp"
+]
+Creating command line "cl.exe @C:\Users\82053\AppData\Local\Temp\RSP25BB.tmp" 
+Creating temporary file "C:\Users\82053\AppData\Local\Temp\RSP25BC.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/FTP_client.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\82053\Desktop\重机由于\ftp_client_11111111\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\82053\AppData\Local\Temp\RSP25BC.tmp" 
+Creating temporary file "C:\Users\82053\AppData\Local\Temp\RSP25BD.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/FTP_client.pdb" /machine:I386 /out:"Release/FTP_client.exe" 
+".\Release\FTP_client.obj"
+".\Release\FTP_clientDlg.obj"
+".\Release\MySocket.obj"
+".\Release\StdAfx.obj"
+".\Release\FTP_client.res"
+]
+Creating command line "link.exe @C:\Users\82053\AppData\Local\Temp\RSP25BD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+FTP_client.cpp
+FTP_clientDlg.cpp
+MySocket.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+FTP_client.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
